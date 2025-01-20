@@ -1,0 +1,25 @@
+import requests
+import pandas as pd
+from io import StringIO
+import math
+# URL de l'API pour récupérer les stations météo en France
+url = "https://public-api.meteofrance.fr/public/DPObs/v1/liste-stations"
+# Remplacez 'YOUR_API_KEY' par votre clé API
+api_key = "eyJ4NXQiOiJZV0kxTTJZNE1qWTNOemsyTkRZeU5XTTRPV014TXpjek1UVmhNbU14T1RSa09ETXlOVEE0Tnc9PSIsImtpZCI6ImdhdGV3YXlfY2VydGlmaWNhdGVfYWxpYXMiLCJ0eXAiOiJKV1QiLCJhbGciOiJSUzI1NiJ9.eyJzdWIiOiJzYW15TG91Y2hhaGlAY2FyYm9uLnN1cGVyIiwiYXBwbGljYXRpb24iOnsib3duZXIiOiJzYW15TG91Y2hhaGkiLCJ0aWVyUXVvdGFUeXBlIjpudWxsLCJ0aWVyIjoiVW5saW1pdGVkIiwibmFtZSI6IkRlZmF1bHRBcHBsaWNhdGlvbiIsImlkIjoyMjg2OCwidXVpZCI6IjBmMmNlYzFhLWFiZjctNDA0My05MzQyLWU5YWEwNzVjZGRhNCJ9LCJpc3MiOiJodHRwczpcL1wvcG9ydGFpbC1hcGkubWV0ZW9mcmFuY2UuZnI6NDQzXC9vYXV0aDJcL3Rva2VuIiwidGllckluZm8iOnsiNTBQZXJNaW4iOnsidGllclF1b3RhVHlwZSI6InJlcXVlc3RDb3VudCIsImdyYXBoUUxNYXhDb21wbGV4aXR5IjowLCJncmFwaFFMTWF4RGVwdGgiOjAsInN0b3BPblF1b3RhUmVhY2giOnRydWUsInNwaWtlQXJyZXN0TGltaXQiOjAsInNwaWtlQXJyZXN0VW5pdCI6InNlYyJ9fSwia2V5dHlwZSI6IlBST0RVQ1RJT04iLCJzdWJzY3JpYmVkQVBJcyI6W3sic3Vic2NyaWJlclRlbmFudERvbWFpbiI6ImNhcmJvbi5zdXBlciIsIm5hbWUiOiJEb25uZWVzUHVibGlxdWVzT2JzZXJ2YXRpb24iLCJjb250ZXh0IjoiXC9wdWJsaWNcL0RQT2JzXC92MSIsInB1Ymxpc2hlciI6ImJhc3RpZW5nIiwidmVyc2lvbiI6InYxIiwic3Vic2NyaXB0aW9uVGllciI6IjUwUGVyTWluIn1dLCJleHAiOjE3MzY5NjYyMjUsInRva2VuX3R5cGUiOiJhcGlLZXkiLCJpYXQiOjE3MzY5MzAyMjUsImp0aSI6ImUzMTA2OWIxLWM0MDQtNGI1YS1hYzQ5LWEwZjJjYjc2YzIzOCJ9.Yr-n6oK_JQHdjBdjCq-2TPcfsfFycIV9qrQhVnLj_XGEGl56vmsP5qVtvpYtNb-h7NzqDAnLCeg1lunKt_QcVka6odejKXflPc0SCuB4_7QZXtecM2yW82Uaf8TWt5Upu_rv5_8uBDV3CYSqHulhSa06bGYRrke-OEdMe5in5FBASztIwgpDn8_paDouTM_7psg045GXeIZTaM1xN7Kly3vJ1zZFO8eJsneTrgtTStuQKVNxlmQovUWeXkdydTinXLN8jEbjTSWSKRawfjpJHVztRc3K2GxDQeDpYNiwLUMII_BlmpQuanIIp2W8jUQZiNv7o4fxNAx7KEWUlFBqHQ=="
+
+# En-têtes de la requête
+headers = {
+    'accept': '*/*',
+    'apikey': api_key
+}
+# Effectuer la requête GET
+response = requests.get(url, headers=headers)
+
+# Vérifier si la requête a réussi
+if response.status_code == 200:
+    stations_data = pd.read_csv(StringIO(response.text), delimiter=';')
+    # Sauvegarder les stations dans un fichier CSV
+    stations_data.to_csv('stations_meteo.csv', index=False)
+    print("Les stations météo ont été sauvegardées dans 'stations_meteo.csv'.")
+else:
+    print(f"Erreur lors de la récupération des données météo: {response.status_code}")
