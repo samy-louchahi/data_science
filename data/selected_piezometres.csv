@@ -1,0 +1,21 @@
+code_bss,nom_departement,libelle_pe,nom_commune,x,y,noms_masse_eau_edl,nb_mesures_piezo,date_debut_mesure,date_fin_mesure,date_maj
+10162X0226/V,Hérault,COURNONSEC,Cournonsec,3.69486795476873,43.5342299701489,"Calcaires jurassiques pli W Montpellier et formations tertiaires, unité Thau Monbazin-Gigean Gardiole",9165,1969-09-04,2025-01-09,
+10401X0216/STJOS2,Hérault,ST Joseph 2 - 118,Villeneuve-lès-Béziers,3.280355341434773,43.3146968891414,Sables astiens de Valras-Agde,90,1969-08-01,2024-08-28,
+10157X0104/1777,Hérault,FLORENSAC 1777,Florensac,3.43458583464613,43.4024727946553,Alluvions de l'Hérault,9355,1973-03-15,2025-01-08,2020-01-24 16:44:49+01:00
+09908X0174/MASJAU,Hérault,BRGM MONTPELLIER,Montpellier,3.902139,43.616584,Alluvions anciennes entre Vidourle et Lez et littoral entre Montpellier et Sète,8866,1974-10-15,2025-01-09,2020-01-24 16:44:49+01:00
+09907X0321/MLS3,Hérault,MIDI LIBRE,Saint-Jean-de-Védas,3.85483114801182,43.5718998631055,"Calcaires jurassiques pli W de Montpellier, unité Mosson + sud Montpellier affleurant + ss couverture",16999,1976-07-23,2025-01-09,2020-02-27 06:03:18+01:00
+09911X0317/P3BIS,Hérault,SAINT GENIES,Saint-Geniès-des-Mourgues,4.016917,43.699136,"Calcaires, marnes et molasses oligo-miocènes du bassin de Castrie-Sommières",4960,1981-04-03,2025-01-09,
+09908X0345/AUBE,Hérault,Aube Rouge - 810,Castelnau-le-Lez,3.92911992758187,43.6378164860656,Calcaires jurassiques pli oriental de Montpellier et extension sous couverture,9220,1981-03-25,2024-10-03,2024-01-24 22:37:40+01:00
+10161X0156/P4,Hérault,,Villeveyrac,3.6072182828596,43.5147223362482,Calcaires jurassiques pli ouest de Montpellier - unité Plaissan-Villeveyrac,802,1970-10-27,1999-11-30,
+09635X0009/FONTAN,Hérault,FONTANILLES,Argelliers,3.673862630483627,43.69756505684982,Calcaires et marnes jurassiques des garrigues nord-montpellieraines (W faille de Corconne),7553,1996-11-19,2024-09-20,2025-01-13 06:01:04+01:00
+09635X0003/FHY,Hérault,CENT FONTS - CAUSSE DE LA SELLE,Causse-de-la-Selle,3.62406102677269,43.7598363467195,"Calcaires et marnes causses et avant-causses du Larzac sud, Campestre, Blandas, Séranne, Escandorgue, BV Hérault et Orb",9421,1997-06-01,2025-01-09,2020-02-27 06:03:18+01:00
+09892X0679/EXH70,Hérault,PUECH (LE),Le Puech,3.32731710695282,43.6955757184355,Pélites permiennes et calcaires cambriens du lodévois,7576,2003-12-15,2025-01-09,2020-02-27 06:03:18+01:00
+10148X0031/POMPA,Hérault,MARAUSSAN,Maraussan,3.16348977946535,43.3807925243234,Alluvions de l'Orb et du Libron,7216,2004-03-05,2025-01-09,2020-01-24 16:44:49+01:00
+09645X0035/111111,Hérault,FONTBONNE MOUGERES EST,Galargues,4.021303165422928,43.770492714718074,Calcaires et marnes jurassiques des garrigues nord-montpellieraines - système du Lez,7350,1993-12-10,2014-08-18,2025-01-13 06:01:04+01:00
+09912X0278/FORAGE,Hérault,LUNEL,Lunel,4.1354121618520665,43.67683606364516,Calcaires du crétacé supérieur des garrigues nîmoises et extension sous couverture,7226,2004-11-10,2025-01-09,2020-01-24 16:44:49+01:00
+09888X0094/JONCAS,Hérault,JONCASSES,Bédarieux,3.158951477398638,43.61592477169577,Dolomies  et calcaires jurassiques du fossé de Bédarieux,7063,2005-01-04,2024-09-20,2025-01-13 06:01:04+01:00
+09634X0074/CLARET,Hérault,CLARET,Claret,3.91293651366092,43.8544940800026,"Calcaires et marnes jurassiques des garrigues nord-montpellieraines - système du Lez,Calcaires et marnes jurassiques des garrigues nord-montpellieraines (W faille de Corconne)",6959,2005-10-17,2025-01-09,2020-02-27 06:03:18+01:00
+09888X0111/LACAN,Hérault,LACAN,Faugères,3.189177693691996,43.56545557869999,"Formations plissées du Haut Minervois, Monts de Faugères, St Ponais et Pardailhan",6557,2005-09-18,2024-09-20,2025-01-13 06:01:04+01:00
+09898X0017/PESQUI,Hérault,PRADEL,Saint-Bauzille-de-la-Sylve,3.546219886284131,43.61697366260379,Calcaires et marnes éocènes et oligocènes de l'avant pli de Montpellier,6218,2007-07-10,2024-09-20,
+10154X0075/BELLUG,Hérault,,Montagnac,3.53452157690522,43.4856278176745,Formations tertiaires et crétacées du bassin de Béziers-Pézenas,5637,1999-10-04,2016-10-30,
+10158X0053/IBC392,Hérault,,Loupian,3.59614813326566,43.4617775070536,"Calcaires jurassiques pli ouest de Montpellier - unité Plaissan-Villeveyrac,Formations tertiaires et crétacées du bassin de Béziers-Pézenas",1139,2021-11-24,2025-01-05,
